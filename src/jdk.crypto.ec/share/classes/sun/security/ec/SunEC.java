@@ -216,7 +216,8 @@ public final class SunEC extends Provider {
             List.of(
                 CurveDB.lookup("secp256r1"),
                 CurveDB.lookup("secp384r1"),
-                CurveDB.lookup("secp521r1"))) {
+                CurveDB.lookup("secp521r1"),
+                CurveDB.lookup("sm2p256v1"))) {
             if (!firstCurve) {
                 names.append("|");
             } else {

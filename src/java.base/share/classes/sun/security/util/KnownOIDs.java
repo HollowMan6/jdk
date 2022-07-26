@@ -429,7 +429,9 @@ public enum KnownOIDs {
     JAVASOFT_JCEKeyProtector("1.3.6.1.4.1.42.2.19.1"),
     MICROSOFT_ExportApproved("1.3.6.1.4.1.311.10.3.3"),
 
-    Blowfish("1.3.6.1.4.1.3029.1.1.2");
+    Blowfish("1.3.6.1.4.1.3029.1.1.2"),
+
+    sm2p256v1("1.2.156.10197.1.301", "sm2p256v1", "SM2 P-256");
 
     private String stdName;
     private String oid;

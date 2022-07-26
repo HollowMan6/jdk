@@ -64,8 +64,10 @@ import java.util.Arrays;
 public abstract sealed class IntegerPolynomial implements IntegerFieldModuloP
     permits IntegerPolynomial1305, IntegerPolynomial25519,
             IntegerPolynomial448, IntegerPolynomialP256,
+            IntegerPolynomialSM2P256,
             IntegerPolynomialP384, IntegerPolynomialP521,
             IntegerPolynomialModBinP, P256OrderField,
+            SM2P256OrderField,
             P384OrderField, P521OrderField,
             Curve25519OrderField,
             Curve448OrderField {
